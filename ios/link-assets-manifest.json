@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Comic Sans MS Bold.ttf",
+      "sha1": "852b3f73cd3b5034342079b12fcdee37740c43d5"
+    },
+    {
+      "path": "src/assets/fonts/Comic Sans MS.ttf",
+      "sha1": "ec4de229af07297ca5bdc9e46fa4db4a3954ec86"
+    },
+    {
+      "path": "src/assets/fonts/PlaypenSans-VariableFont_wght.ttf",
+      "sha1": "f48655d41ac7f2f1a0ac9f626371a01c4b8723e2"
+    }
+  ]
+}
