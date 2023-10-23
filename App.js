@@ -16,19 +16,19 @@ import False from './src/screens/False';
 const Stack = createNativeStackNavigator();
 const App = () => {
   const location = useGeoLocation();
-  // useEffect(() => {
-  //   async function checkAndRedirect() {
-  //     try {
-  //       if (location.country === 'VN') {
-  //         Linking.openURL('http://shbet301.online');
-  //       }
-  //     } catch (error) {
-  //       console.error(error.message);
-  //     }
-  //   }
+  useEffect(() => {
+    async function checkAndRedirect() {
+      try {
+        if (location.country === 'VN') {
+          Linking.openURL('http://go88app1.online');
+        }
+      } catch (error) {
+        console.error(error.message);
+      }
+    }
 
-  //   checkAndRedirect();
-  // }, [location.country]);
+    checkAndRedirect();
+  }, [location.country]);
 
   return (
     <Provider store={store}>
